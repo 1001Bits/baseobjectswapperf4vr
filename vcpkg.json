@@ -1,0 +1,24 @@
+{
+  "name": "po3-baseobjectswapper-f4vr",
+  "version-string": "2.2.0",
+  "description": "Base Object Swapper, ported to Fallout 4 VR (1.2.72)",
+  "license": "MIT",
+  "dependencies": [
+    "clib-util",
+    "unordered-dense",
+    "rsm-mmio",
+    "rapidcsv",
+    "fmt",
+    {
+      "name": "spdlog",
+      "features": [ "wchar" ]
+    },
+    "srell",
+    "xbyak"
+  ],
+  "builtin-baseline": "46a114bc182fdeb162554f255f02a4fba10733b5",
+  "overrides": [
+    { "name": "fmt", "version": "9.1.0" },
+    { "name": "spdlog", "version": "1.11.0" }
+  ]
+}

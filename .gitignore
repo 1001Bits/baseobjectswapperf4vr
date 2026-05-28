@@ -1,0 +1,16 @@
+build/
+out/
+package/
+.vs/
+.vscode/
+.idea/
+external/
+vcpkg_installed/
+CMakeUserPresets.json
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.sln.docstates
+*.VC.db
+*.VC.opendb
