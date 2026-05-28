@@ -2,16 +2,6 @@
 
 VR port of [powerof3/BaseObjectSwapperF4](https://github.com/powerof3/BaseObjectSwapperF4) for Fallout 4 VR 1.2.72.
 
-Runtime base-form / reference swaps and transform / property overrides via simple `_SWAP.ini` files. See the README inside the release archive for the INI syntax.
-
-## Runtime requirements
-
-- Fallout 4 VR 1.2.72
-- [F4SEVR](https://f4se.silverlock.org/)
-- [VR Address Library for F4SEVR](https://www.nexusmods.com/fallout4/mods/64879) — supplies `version-1-2-72-0.csv`
-- Microsoft Visual C++ Redistributables 2019 (or any 2015–2022 combined)
-
-> **Note**: this is the VR port. The NG version's BakaFramework requirement does **not** apply — the BOS code itself doesn't call into Baka, and no VR build of Baka exists.
 
 ## Build
 
